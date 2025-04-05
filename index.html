@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Posicionamiento Creativo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MENÚ STICKY -->
+  <nav class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-rocket-fill me-2"></i>Vaca Espacial</a>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="content" style="position: relative;">
+    <!-- Imagen de fondo -->
+    <img src="https://images.unsplash.com/photo-1549921296-3c8b1685c7db" alt="Nueva York" class="w-100" style="height: 100vh; object-fit: cover;">
+
+    <!-- SLOGAN ABSOLUTE -->
+    <h1 class="slogan">¡Una vaca en el espacio!</h1>
+
+    <!-- VACA RELATIVE -->
+    <div class="vaca-container">
+      <img src="https://cdn.pixabay.com/photo/2016/12/22/13/44/cow-1926253_1280.png" alt="Vaca" class="vaca">
+    </div>
+
+    <!-- ELEMENTO SUPERPUESTO -->
+    <img src="https://cdn.pixabay.com/photo/2013/07/12/15/37/astronaut-150944_960_720.png" alt="Astronauta" class="astronauta">
+
+    <!-- Texto adicional para scroll -->
+    <div class="container my-5">
+      <p class="lead">Scroll hacia abajo para ver el footer fijo.</p>
+      <p>Este ejemplo muestra todos los tipos de posicionamiento: sticky, fixed, absolute, relative y uso de z-index.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel nisl elit. Sed tempor blandit ligula...</p>
+      <p style="height: 600px;"></p>
+    </div>
+  </div>
+
+  <!-- FOOTER FIXED -->
+  <footer class="bg-dark text-white text-center fixed-bottom p-2">
+    <small>2025 © Vaca Espacial 🚀</small>
+  </footer>
+
+</body>
+</html>
